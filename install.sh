@@ -41,8 +41,8 @@ echo "home pptpd home *" >> /etc/ppp/chap-secrets
 echo "mobile pptpd mobile *" >> /etc/ppp/chap-secrets
 
 service iptables start
-echo "iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE" >> /etc/rc.local
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+echo "iptables -t nat -A POSTROUTING -o venet0 -j MASQUERADE" >> /etc/rc.local
+iptables -t nat -A POSTROUTING -o venet0 -j MASQUERADE
 service iptables save
 service iptables restart
 
