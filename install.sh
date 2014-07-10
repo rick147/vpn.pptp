@@ -33,7 +33,12 @@ echo "ms-dns 8.8.8.8" >> /etc/ppp/options.pptpd # Google DNS Primary
 echo "ms-dns 8.8.4.4" >> /etc/ppp/options.pptpd # Google DNS Secondary
 
 
-echo "$VPN_USERNAME pptpd $VPN_PASSWORD *" >> /etc/ppp/chap-secrets
+echo "wsf pptpd wsf *" >> /etc/ppp/chap-secrets
+echo "zkf pptpd zkf *" >> /etc/ppp/chap-secrets
+echo "wshao pptpd wshao *" >> /etc/ppp/chap-secrets
+echo "company pptpd company *" >> /etc/ppp/chap-secrets
+echo "home pptpd home *" >> /etc/ppp/chap-secrets
+echo "mobile pptpd mobile *" >> /etc/ppp/chap-secrets
 
 service iptables start
 echo "iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE" >> /etc/rc.local
@@ -47,7 +52,7 @@ chkconfig pptpd on
 echo -e '\E[37;44m'"\033[1m Installation Log: /var/log/vpn-installer.log \033[0m"
 echo -e '\E[37;44m'"\033[1m You can now connect to your VPN via your external IP ($VPN_IP)\033[0m"
 
-echo -e '\E[37;44m'"\033[1m Username: $VPN_USERNAME\033[0m"
-echo -e '\E[37;44m'"\033[1m Password: $VPN_PASSWORD\033[0m"
+echo -e '\E[37;44m'"\033[1m Username: wsf zkf wshao company home mobile"
+echo -e '\E[37;44m'"\033[1m Password: same of name"
 
 ) 2>&1 | tee /var/log/vpn-installer.log
