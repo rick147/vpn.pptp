@@ -1,0 +1,1044 @@
+<DB>
+	<Tbl name="DBBase" RowCount="1">
+		<Row No="0">
+			<DM name="IFInfo" val="0101020002000000020A44010000404F0000"/>
+		</Row>
+	</Tbl>
+	<Tbl name="FWALG" RowCount="1">
+		<Row No="0">
+			<DM name="IsSIPAlg" val="0"/>
+			<DM name="IsFTPAlg" val="1"/>
+			<DM name="IsH323Alg" val="1"/>
+			<DM name="IsRTSPAlg" val="1"/>
+			<DM name="IsL2TPAlg" val="1"/>
+			<DM name="IsPPTPAlg" val="1"/>
+			<DM name="IsTFTPAlg" val="1"/>
+			<DM name="IsSNMPAlg" val="1"/>
+			<DM name="IsIPSECAlg" val="1"/>
+		</Row>
+	</Tbl>
+	<Tbl name="MgtServer" RowCount="1">
+        <Row No="0">
+                <DM name="URL" val="http://127.0.0.1"/>
+                <DM name="UserName" val="hgw"/>
+                <DM name="Password" val="hgw"/>
+                <DM name="PeriodicInformEnable" val="1"/>
+                <DM name="PeriodicInformInterval" val="43200"/>
+                <DM name="ParameterKey" val=""/>
+                <DM name="ConnectionRequestURL" val="58000"/>
+                <DM name="ConnectionRequestUsername" val="itms"/>
+                <DM name="ConnectionRequestPassword" val="itms"/>
+                <DM name="UpgradesManaged" val="0"/>
+                <DM name="Event" val=""/>
+                <DM name="DefaultWan" val=""/>
+                <DM name="SessionRetryTimes" val="10:10:10:30:60:300:600:3600"/>
+                <DM name="SupportCertAuth" val="0"/>
+                <DM name="Tr069Enable" val="1"/>
+                <DM name="MWSURL" val="http://0.0.0.0:9090"/>
+                <DM name="InfoStat" val="0"/>
+                <DM name="InfoDescption" val="3"/>
+                <DM name="AcsStat" val="0"/>
+                <DM name="AcsDescption" val="0"/>
+        </Row>
+  </Tbl>
+	<Tbl name="TelnetCfg" RowCount="1">
+		<Row No="0">
+			<DM name="TS_Enable" val="1"/>
+			<DM name="Wan_Enable" val="0"/>
+			<DM name="Lan_Enable" val="0"/>
+			<DM name="TS_Port" val="23"/>
+			<DM name="TS_UName" val="root"/>
+                <DM name="TS_UPwd" val="rootx"/>
+			<DM name="Max_Con_Num" val="8"/>
+                <DM name="ProcPonLinkUp" val="0"/>
+        </Row>
+    </Tbl>
+    <Tbl name="PortControl" RowCount="8">
+        <Row No="0">
+                <DM name="ViewName" val="IGD.PortControl1"/>
+                <DM name="PortValue" val="80"/>
+                <DM name="PortEnable" val="0"/>
+        </Row>
+        <Row No="1">
+                <DM name="ViewName" val="IGD.PortControl2"/>
+                <DM name="PortValue" val="21"/>
+                <DM name="PortEnable" val="1"/>
+        </Row>
+        <Row No="2">
+                <DM name="ViewName" val="IGD.PortControl3"/>
+                <DM name="PortValue" val="22"/>
+                <DM name="PortEnable" val="1"/>
+        </Row>
+        <Row No="3">
+                <DM name="ViewName" val="IGD.PortControl4"/>
+                <DM name="PortValue" val="23"/>
+                <DM name="PortEnable" val="0"/>
+        </Row>
+        <Row No="4">
+                <DM name="ViewName" val="IGD.PortControl5"/>
+                <DM name="PortValue" val="443"/>
+                <DM name="PortEnable" val="0"/>
+        </Row>
+        <Row No="5">
+                <DM name="ViewName" val="IGD.PortControl6"/>
+                <DM name="PortValue" val="161"/>
+                <DM name="PortEnable" val="1"/>
+        </Row>
+        <Row No="6">
+                <DM name="ViewName" val="IGD.PortControl7"/>
+                <DM name="PortValue" val="58000"/>
+                <DM name="PortEnable" val="1"/>
+        </Row>
+        <Row No="7">
+                <DM name="ViewName" val="0"/>
+                <DM name="PortValue" val="0"/>
+                <DM name="PortEnable" val="0"/>
+		</Row>
+	</Tbl>
+    <Tbl name="UserIF" RowCount="1">
+		<Row No="0">
+			<DM name="Timeout" val="30"/>
+			<DM name="Language" val="2"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VoIPDMTimerCfg" RowCount="1">
+		<Row No="0">
+            <DM name="StartTimer" val="2000"/>
+			<DM name="ShortTimer" val="500"/>
+            <DM name="LongTimer" val="1600"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPSLCTIMECfg" RowCount="2">
+	    <Row No="0">
+            <DM name="HookLowTime" val="50"/>
+	    </Row>
+	    <Row No="1">
+            <DM name="HookLowTime" val="50"/>
+		</Row>
+	</Tbl>	
+	<Tbl name="VoIPFaxT38Cfg" RowCount="1">
+		<Row No="0">
+			<DM name="Enable" val="0"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VOIPExt" RowCount="1">
+		<Row No="0">
+			<DM name="MediaConsult" val="0"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VoIPRTPCfg" RowCount="1">
+		<Row No="0">
+			<DM name="EthernetPriorityMark" val="0"/>
+			<DM name="QueueNum" val="2"/>
+		</Row>
+	</Tbl>
+    <Tbl name="VoIPVoiceProfile" RowCount="1">
+		<Row No="0">
+            <DM name="DigitMap" val="x.T|x.#|*xx*xx*x.#|*.x.*.x.#"/>
+            <DM name="TransferButton" val="1"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VoIPSIP" RowCount="1">
+        <Row No="0">
+            <DM name="Timer" val="1"/>
+            <DM name="RegisterExpires" val="600"/>
+            <DM name="SubScribeEnable" val="1"/>
+            <DM name="PAssertedID" val="1"/>
+            <DM name="LinkTestInterval" val="60"/>
+            <DM name="EthernetPriorityMark" val="0"/>
+            <DM name="AntiPoleFlag" val="1"/>
+            <DM name="QueueNum" val="2"/>
+	    </Row>
+    </Tbl>
+	<Tbl name="DevInfo" RowCount="1">
+        <Row No="0">
+                <DM name="IPProtoMode" val="2"/>
+        </Row>
+</Tbl>
+    <Tbl name="VoIPSIPEventSubscribe" RowCount="1">
+        <Row No="0">
+            <DM name="Event" val="ua-profile"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VOIPVPCallFeature" RowCount="2">
+	    <Row No="0">
+	        <DM name="ExplicitCallTransfer" val="1"/>
+	        <DM name="SingleCallTransfer" val="1"/>
+            <DM name="CommonCallTransfer" val="1"/>
+            <DM name="3WayTalking" val="1"/>
+            <DM name="3WayMode" val="1"/>
+            <DM name="HLNumber" val="*53#"/>
+            <DM name="CallWaitingEnable" val="1"/>
+            <DM name="CallHoldFlag" val="1"/>
+            <DM name="DhlTimer" val="500"/>
+	    </Row>
+	    <Row No="1">
+	        <DM name="ExplicitCallTransfer" val="1"/>
+	        <DM name="SingleCallTransfer" val="1"/>
+            <DM name="CommonCallTransfer" val="1"/>
+            <DM name="3WayTalking" val="1"/>
+            <DM name="3WayMode" val="1"/>
+            <DM name="HLNumber" val="*53#"/>
+            <DM name="CallWaitingEnable" val="1"/>
+            <DM name="CallHoldFlag" val="1"/>
+            <DM name="DhlTimer" val="500"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPVPService" RowCount="1">
+        <Row No="0">
+            <DM name="ECTDigit" val="*12#"/>
+            <DM name="SCTDigit" val="*12*"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPVPCallTimer" RowCount="1">
+        <Row No="0">
+            <DM name="AlertingTimer" val="6000"/>
+            <DM name="CallWaitingTimer" val="6000"/>
+            <DM name="BusyToneTimer" val="4000"/>
+            <DM name="ServerType" val="0"/>
+	</Row>
+    </Tbl>
+	<Tbl name="VoipCapabilitiesCodec" RowCount="4">
+		<Row No="0">
+            <DM name="Codec" val="G.711ALaw"/>
+            <DM name="PacketizationPeriod" val="20"/>
+	    </Row>
+	    <Row No="1">
+            <DM name="Codec" val="G.711MuLaw"/>
+            <DM name="PacketizationPeriod" val="20"/>
+		</Row>
+		<Row No="2">
+            <DM name="Codec" val="G.729"/>
+            <DM name="PacketizationPeriod" val="20"/>
+		</Row>
+		<Row No="3">
+            <DM name="Codec" val="G.722"/>
+            <DM name="PacketizationPeriod" val="20"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VOIPRcaCommon" RowCount="1">
+		<Row No="0">
+			<DM name="LoTimer" val="5000"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VOIPSIPSupportedCfg" RowCount="8">
+		<Row No="0">
+			<DM name="SupportedFlag" val="1"/>
+		</Row>
+		<Row No="1">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+		<Row No="2">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+		<Row No="3">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+		<Row No="4">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+		<Row No="5">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+		<Row No="6">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+		<Row No="7">
+			<DM name="SupportedFlag" val="0"/>
+		</Row>
+	</Tbl>
+        <Tbl name="VOIPSLMTerm" RowCount="4">
+		<Row No="0">
+		</Row>
+		<Row No="1">
+		</Row>
+		<Row No="2">
+			</Row>		
+		<Row No="3">
+			</Row>
+	</Tbl>
+	<Tbl name="VoIPCSLine" RowCount="1">
+        <Row No="0">
+            <DM name="OneNumber" val="1"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPVMediaCfg" RowCount="8">
+		<Row No="0">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="1"/>
+			<DM name="MediaVPV" val="0"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="2"/>
+			<DM name="MediaEntryID" val="1"/>
+		</Row>
+		<Row No="1">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="4"/>
+			<DM name="MediaVPV" val="8"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="1"/>
+			<DM name="MediaEntryID" val="2"/>
+		</Row>
+		<Row No="2">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="8"/>
+			<DM name="MediaVPV" val="18"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="3"/>
+			<DM name="MediaEntryID" val="3"/>
+		</Row>
+		<Row No="3">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="16"/>
+			<DM name="MediaVPV" val="9"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="4"/>
+			<DM name="MediaEntryID" val="4"/>
+		</Row>
+		<Row No="4">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="1"/>
+			<DM name="MediaVPV" val="0"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="2"/>
+			<DM name="MediaEntryID" val="1"/>
+		</Row>
+		<Row No="5">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="4"/>
+			<DM name="MediaVPV" val="8"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="1"/>
+			<DM name="MediaEntryID" val="2"/>
+		</Row>
+		<Row No="6">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="8"/>
+			<DM name="MediaVPV" val="18"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="3"/>
+			<DM name="MediaEntryID" val="3"/>
+		</Row>
+		<Row No="7">
+			<DM name="MediaVEnable" val="1"/>
+			<DM name="MediaVType" val="1"/>
+			<DM name="MediaVCodec" val="16"/>
+			<DM name="MediaVPV" val="9"/>
+			<DM name="MediaVPT" val="20"/>
+			<DM name="MediaVCR" val="8000"/>
+			<DM name="MediaVPri" val="4"/>
+			<DM name="MediaEntryID" val="4"/>
+		</Row>
+	</Tbl>
+    <Tbl name="VoIPFMediaCfg" RowCount="6">
+		<Row No="0">
+			<DM name="MediaFEnable" val="1"/>
+			<DM name="MediaFType" val="6"/>
+			<DM name="MediaFCodec" val="33554432"/>
+			<DM name="MediaFPV" val="255"/>
+			<DM name="MediaFPT" val="4294967295"/>
+			<DM name="MediaFCR" val="8000"/>
+			<DM name="MediaFPri" val="1"/>
+		</Row>
+		<Row No="1">
+			<DM name="MediaFEnable" val="0"/>
+			<DM name="MediaFType" val="1"/>
+			<DM name="MediaFCodec" val="1"/>
+			<DM name="MediaFPV" val="0"/>
+			<DM name="MediaFPT" val="20"/>
+			<DM name="MediaFCR" val="8000"/>
+			<DM name="MediaFPri" val="1"/>
+		</Row>
+		<Row No="2">
+			<DM name="MediaFEnable" val="1"/>
+			<DM name="MediaFType" val="1"/>
+			<DM name="MediaFCodec" val="4"/>
+			<DM name="MediaFPV" val="8"/>
+			<DM name="MediaFPT" val="20"/>
+			<DM name="MediaFCR" val="8000"/>
+			<DM name="MediaFPri" val="1"/>
+		</Row>
+        <Row No="3">
+            <DM name="MediaFEnable" val="1"/>
+            <DM name="MediaFType" val="6"/>
+            <DM name="MediaFCodec" val="33554432"/>
+            <DM name="MediaFPV" val="255"/>
+            <DM name="MediaFPT" val="4294967295"/>
+            <DM name="MediaFCR" val="8000"/>
+            <DM name="MediaFPri" val="1"/>
+        </Row>
+        <Row No="4">
+            <DM name="MediaFEnable" val="0"/>
+            <DM name="MediaFType" val="1"/>
+            <DM name="MediaFCodec" val="1"/>
+            <DM name="MediaFPV" val="0"/>
+            <DM name="MediaFPT" val="20"/>
+            <DM name="MediaFCR" val="8000"/>
+            <DM name="MediaFPri" val="1"/>
+        </Row>
+        <Row No="5">
+            <DM name="MediaFEnable" val="1"/>
+            <DM name="MediaFType" val="1"/>
+            <DM name="MediaFCodec" val="4"/>
+            <DM name="MediaFPV" val="8"/>
+            <DM name="MediaFPT" val="20"/>
+            <DM name="MediaFCR" val="8000"/>
+            <DM name="MediaFPri" val="1"/>
+        </Row>
+	</Tbl>
+    <Tbl name="VoIPSRTermination" RowCount="4">
+		<Row No="0">
+            <DM name="SourceTid" val="0"/>
+            <DM name="SrMethod" val="2"/>
+            <DM name="BoudType" val="2"/>
+            <DM name="BoudData" val="20000"/>
+            <DM name="DefaultRouteType" val="2"/>
+            <DM name="DefaultRouteData" val="20000"/>
+		</Row>
+		<Row No="1">
+            <DM name="SourceTid" val="1"/>
+            <DM name="SrMethod" val="2"/>
+            <DM name="BoudType" val="2"/>
+            <DM name="BoudData" val="20001"/>
+            <DM name="DefaultRouteType" val="2"/>
+            <DM name="DefaultRouteData" val="20001"/>
+		</Row>
+		<Row No="2">
+            <DM name="SourceTid" val="20000"/>
+            <DM name="SrMethod" val="1"/>
+            <DM name="BoudType" val="2"/>
+            <DM name="BoudData" val="0"/>
+            <DM name="DefaultRouteType" val="1"/>
+            <DM name="DefaultRouteData" val="1"/>
+		</Row>
+		<Row No="3">
+            <DM name="SourceTid" val="20001"/>  
+            <DM name="SrMethod" val="1"/>
+            <DM name="BoudType" val="2"/>
+            <DM name="BoudData" val="1"/>
+            <DM name="DefaultRouteType" val="1"/>
+            <DM name="DefaultRouteData" val="1"/>
+		</Row>
+	</Tbl>
+    <Tbl name="VoIPSROfficePrefix" RowCount="3">
+	    <Row No="0">
+            <DM name="Prefix" val=""/>
+            <DM name="Office" val="1"/>
+	    </Row>
+	    <Row No="1">
+            <DM name="Prefix" val=""/>
+            <DM name="Office" val="2"/>
+	    </Row>
+	    <Row No="2">
+            <DM name="Prefix" val=""/>
+            <DM name="Office" val="3"/>
+	    </Row>
+    </Tbl>
+    <Tbl name="VoIPDTMFADVCfg" RowCount="1">
+	<Row No="0">
+             <DM name="DigitOnDura" val="10"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPVPNP" RowCount="1">
+		<Row No="0">
+			<DM name="NpFxoPrefix" val=""/>
+		</Row>
+	</Tbl>
+    <Tbl name="VoIPVPNPPrefix" RowCount="1">
+		<Row No="0">
+			<DM name="Range" val="0-9"/>
+			<DM name="MinNum" val="1"/>
+			<DM name="MaxNum" val="30"/>
+			<DM name="NumRem" val="0"/>
+			<DM name="PosRem" val="0"/>
+			<DM name="DefPort" val="2"/>
+			<DM name="BakPort" val="0"/>
+		</Row>
+	</Tbl>
+	<Tbl name="VOIPCIDCfg" RowCount="1">
+        <Row No="0">
+            <DM name="TimeEnable" val="2"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPVPLine" RowCount="2">
+        <Row No="0">
+            <DM name="Status" val="1"/>
+        </Row>
+        <Row No="1">
+            <DM name="Status" val="1"/>
+        </Row>
+    </Tbl>
+    <Tbl name="VoIPVoiceProcCfg" RowCount="2">
+		<Row No="0">
+			<DM name="ReceiveGain" val="150"/>
+			<DM name="TransmitGain" val="150"/>
+		</Row>
+        <Row No="1">
+			<DM name="ReceiveGain" val="150"/>
+			<DM name="TransmitGain" val="150"/>
+		</Row>
+	</Tbl>
+	<Tbl name="ARPDETECTConfig" RowCount="1">
+		<Row No="0">
+			<DM name="ArpEnable" val="0"/>
+			<DM name="NumberOfRepetitions" val="3"/>
+			<DM name="Timeout_min" val="180"/>
+			<DM name="Timeout_max" val="600"/>
+			<DM name="Timeout" val="240"/>
+		</Row>
+	</Tbl>	
+	<Tbl name="QOSBasic" RowCount="1">
+		<Row No="0">
+			<DM name="Enable" val="0"/>
+			<DM name="Mode" val="4"/>
+			<DM name="MaxQCNum" val="10"/>
+			<DM name="QPEnable" val="1"/>
+			<DM name="QPAlgorithmName" val="1"/>
+			<DM name="MaxQPNum" val="10"/>
+			<DM name="QQEnable" val="1"/>
+			<DM name="QQAlgorithmName" val="1"/>
+			<DM name="QQBorrowEnable" val="1"/>
+			<DM name="QQRate" val="0"/>
+			<DM name="MaxQQNum" val="4"/>
+			<DM name="DSCPRemarkEnable" val="0"/>
+			<DM name="VlanprioRemarkEnable" val="0"/>
+			<DM name="QQDwrrNum" val="7"/>
+			<DM name="ConsiderAtmQosEnable" val="0"/>
+		</Row>
+	</Tbl>	
+	<Tbl name="QOSQueue" RowCount="4">
+		<Row No="0">
+			<DM name="ViewName" val="IGD.QOS.QQ1"/>
+			<DM name="QueueNum" val="1"/>
+			<DM name="Enable" val="1"/>
+			<DM name="Status" val="1"/>
+			<DM name="Length" val="0"/>
+			<DM name="Weight" val="0"/>
+			<DM name="Rate" val="0"/>
+			<DM name="Burst" val="0"/>
+			<DM name="Ceil" val="0"/>
+		</Row>
+		<Row No="1">
+			<DM name="ViewName" val="IGD.QOS.QQ2"/>
+			<DM name="QueueNum" val="2"/>
+			<DM name="Enable" val="1"/>
+			<DM name="Status" val="1"/>
+			<DM name="Length" val="0"/>
+			<DM name="Weight" val="0"/>
+			<DM name="Rate" val="0"/>
+			<DM name="Burst" val="0"/>
+			<DM name="Ceil" val="0"/>
+		</Row>
+		<Row No="2">
+			<DM name="ViewName" val="IGD.QOS.QQ3"/>
+			<DM name="QueueNum" val="3"/>
+			<DM name="Enable" val="1"/>
+			<DM name="Status" val="1"/>
+			<DM name="Length" val="0"/>
+			<DM name="Weight" val="0"/>
+			<DM name="Rate" val="0"/>
+			<DM name="Burst" val="0"/>
+			<DM name="Ceil" val="0"/>
+		</Row>
+		<Row No="3">
+			<DM name="ViewName" val="IGD.QOS.QQ4"/>
+			<DM name="QueueNum" val="4"/>
+			<DM name="Enable" val="1"/>
+			<DM name="Status" val="1"/>
+			<DM name="Length" val="0"/>
+			<DM name="Weight" val="0"/>
+			<DM name="Rate" val="0"/>
+			<DM name="Burst" val="0"/>
+			<DM name="Ceil" val="0"/>
+		</Row>
+	</Tbl>	
+	<Tbl name="QOSClassification" RowCount="1">
+		<Row No="0">
+			<DM name="ViewName" val="IGD.QOS.QC1"/>
+			<DM name="Enable" val="1"/>
+			<DM name="Status" val="1"/>
+			<DM name="Order" val="1"/>
+			<DM name="DevIn" val=""/>
+			<DM name="DevInMax" val="IGD.LD1.ETH2"/>
+			<DM name="DevInMin" val="IGD.LD1.ETH2"/>
+			<DM name="VlanPrio" val="-1"/>
+			<DM name="VlanPrioMax" val="-1"/>
+			<DM name="VlanPrioMin" val="-1"/>
+			<DM name="VlanID" val="-1"/>
+			<DM name="VlanIDMax" val="-1"/>
+			<DM name="VlanIDMin" val="-1"/>
+			<DM name="L2Protocol" val=""/>
+			<DM name="MACDest" val="00:00:00:00:00:00"/>
+			<DM name="MACDestMask" val="00:00:00:00:00:00"/>
+			<DM name="MACDestMax" val="00:00:00:00:00:00"/>
+			<DM name="MACDestMin" val="00:00:00:00:00:00"/>
+			<DM name="MACSrc" val="00:00:00:00:00:00"/>
+			<DM name="MACSrcMask" val="00:00:00:00:00:00"/>
+			<DM name="MACSrcMax" val="00:00:00:00:00:00"/>
+			<DM name="MACSrcMin" val="00:00:00:00:00:00"/>
+			<DM name="IPLength" val="0"/>
+			<DM name="IPLengthMax" val="0"/>
+			<DM name="IPLengthMin" val="0"/>
+			<DM name="IPPrecedence" val="-1"/>
+			<DM name="IPPrecedenceMax" val="-1"/>
+			<DM name="IPPrecedenceMin" val="-1"/>
+			<DM name="DSCPCheck" val="-1"/>
+			<DM name="DSCPCheckMax" val="-1"/>
+			<DM name="DSCPCheckMin" val="-1"/>
+			<DM name="TOSCheck" val="-1"/>
+			<DM name="TOSCheckMax" val="-1"/>
+			<DM name="TOSCheckMin" val="-1"/>
+			<DM name="TrafficClassCheck" val="-1"/>
+			<DM name="TrafficClassCheckMax" val="-1"/>
+			<DM name="TrafficClassCheckMin" val="-1"/>
+			<DM name="FlowLabelCheck" val="-1"/>
+			<DM name="FlowLabelCheckMax" val="-1"/>
+			<DM name="FlowLabelCheckMin" val="-1"/>
+			<DM name="IPv6Dest" val="::"/>
+			<DM name="IPv6DestPrefLen" val="-1"/>
+			<DM name="IPv6DestMax" val="::"/>
+			<DM name="IPv6DestMin" val="::"/>
+			<DM name="IPv6Src" val="::"/>
+			<DM name="IPv6SrcPrefLen" val="-1"/>
+			<DM name="IPv6SrcMax" val="::"/>
+			<DM name="IPv6SrcMin" val="::"/>
+			<DM name="IPDest" val="0.0.0.0"/>
+			<DM name="IPDestMask" val="0.0.0.0"/>
+			<DM name="IPDestMax" val="0.0.0.0"/>
+			<DM name="IPDestMin" val="0.0.0.0"/>
+			<DM name="IPSrc" val="0.0.0.0"/>
+			<DM name="IPSrcMask" val="0.0.0.0"/>
+			<DM name="IPSrcMax" val="0.0.0.0"/>
+			<DM name="IPSrcMin" val="0.0.0.0"/>
+			<DM name="L3ProtocolList" val="TCP,UDP"/>
+			<DM name="SrcPort" val="-1"/>
+			<DM name="SrcPortMax" val="-1"/>
+			<DM name="SrcPortMin" val="-1"/>
+			<DM name="DestPort" val="-1"/>
+			<DM name="DestPortMax" val="-1"/>
+			<DM name="DestPortMin" val="-1"/>
+			<DM name="RTPEnable" val="0"/>
+			<DM name="ServiceType" val="-1"/>
+			<DM name="VlanPrioMark" val="0"/>
+			<DM name="DscpMark" val="0"/>
+			<DM name="TCMark" val="-1"/>
+			<DM name="PRDevOut" val=""/>
+			<DM name="PolicerQueue" val="-1"/>
+			<DM name="ClassQueue" val="3"/>
+		</Row>
+	</Tbl>
+	<Tbl name="QOSRule" RowCount="1">
+		<Row No="0">
+			<DM name="ViewName" val="IGD.QOS.QR1"/>
+			<DM name="Order" val="1"/>
+			<DM name="Status" val="0"/>
+			<DM name="ProtocolList" val="TCP,UDP"/>
+			<DM name="VlanPrioMark" val="0"/>
+			<DM name="DscpMark" val="0"/>
+			<DM name="TCMark" val="-1"/>
+			<DM name="PolicerQueue" val="-1"/>
+			<DM name="ClassQueue" val="3"/>
+		</Row>
+	</Tbl>	
+	<Tbl name="QOSType" RowCount="1">
+		<Row No="0">
+			<DM name="ViewName" val="IGD.QOS.QR1.QT1"/>
+			<DM name="Status" val="0"/>
+			<DM name="Type" val="LANInterface"/>
+			<DM name="Max" val="IGD.LD1.ETH2"/>
+			<DM name="Min" val="IGD.LD1.ETH2"/>
+			<DM name="ProtocolList" val="TCP,UDP"/>
+		</Row>
+	</Tbl>	
+	<Tbl name="QOSApp" RowCount="2">
+		<Row No="0">
+			<DM name="ViewName" val="IGD.QOS.QA1"/>
+			<DM name="AppName" val="VOIP"/>
+			<DM name="ClassQueue" val="2"/>
+			<DM name="VlanprioRemarkMode" val="0"/>
+		</Row>
+		<Row No="1">
+			<DM name="ViewName" val="IGD.QOS.QA2"/>
+			<DM name="AppName" val="TR069"/>
+			<DM name="ClassQueue" val="1"/>
+			<DM name="VlanprioRemarkMode" val="0"/>
+		</Row>
+	</Tbl>
+	<Tbl name="Tr069Queue" RowCount="1">
+		<Row No="0">
+			<DM name="QueueNum"	val="1"/>
+		</Row>
+	</Tbl>
+    <Tbl name="WLANCfg" RowCount="4">
+        <Row No="0">
+            <DM name="ViewName" val="IGD.LD1.WLAN1"/>
+            <DM name="LANDViewName" val="IGD.LD1"/>
+            <DM name="InstExist" val="1"/>
+            <DM name="Enable" val="1"/>
+            <DM name="ESSID" val="ChinaNet-SSID1"/>
+            <DM name="ESSIDPrefix" val=""/>
+            <DM name="Priority" val="0"/>
+            <DM name="ACLPolicy" val="0"/>
+            <DM name="BeaconType" val="6"/>
+            <DM name="ESSIDHideEnable" val="0"/>
+            <DM name="BeaconEnabled" val="1"/>
+            <DM name="WEPAuthMode" val="2"/>
+            <DM name="WEPLevel" val="1"/>
+            <DM name="WEPKeyIndex" val="1"/>
+            <DM name="WPAEncryptType" val="1"/>
+            <DM name="WPAAuthMode" val="0"/>
+            <DM name="11iEncryptType" val="1"/>
+            <DM name="11iAuthMode" val="0"/>
+            <DM name="WPAGroupRekey" val="600"/>
+            <DM name="WPAEAPServerIp" val="192.168.1.1"/>
+            <DM name="WPAEAPSecret" val="12345678"/>
+            <DM name="MaxUserNum" val="32"/>
+            <DM name="VapIsolationEnable" val="0"/>
+            <DM name="BasicEncryptionModes" val="0"/>
+        </Row>
+        <Row No="1">
+            <DM name="ViewName" val="IGD.LD1.WLAN2"/>
+            <DM name="LANDViewName" val="IGD.LD1"/>
+            <DM name="InstExist" val="0"/>
+            <DM name="Enable" val="0"/>
+            <DM name="ESSID" val="SSID2"/>
+            <DM name="ESSIDPrefix" val=""/>
+            <DM name="Priority" val="0"/>
+            <DM name="ACLPolicy" val="0"/>
+                <DM name="BeaconType" val="6"/>
+            <DM name="ESSIDHideEnable" val="0"/>
+            <DM name="BeaconEnabled" val="1"/>
+            <DM name="WEPAuthMode" val="2"/>
+            <DM name="WEPLevel" val="1"/>
+            <DM name="WEPKeyIndex" val="1"/>
+            <DM name="WPAEncryptType" val="1"/>
+            <DM name="WPAAuthMode" val="0"/>
+            <DM name="11iEncryptType" val="1"/>
+            <DM name="11iAuthMode" val="0"/>
+            <DM name="WPAGroupRekey" val="600"/>
+            <DM name="WPAEAPServerIp" val="192.168.1.1"/>
+            <DM name="WPAEAPSecret" val="12345678"/>
+            <DM name="MaxUserNum" val="32"/>
+            <DM name="VapIsolationEnable" val="0"/>
+            <DM name="BasicEncryptionModes" val="0"/>
+        </Row>
+        <Row No="2">
+            <DM name="ViewName" val="IGD.LD1.WLAN3"/>
+            <DM name="LANDViewName" val="IGD.LD1"/>
+            <DM name="InstExist" val="0"/>
+            <DM name="Enable" val="0"/>
+            <DM name="ESSID" val="SSID3"/>
+            <DM name="ESSIDPrefix" val=""/>
+            <DM name="Priority" val="0"/>
+            <DM name="ACLPolicy" val="0"/>
+                <DM name="BeaconType" val="6"/>
+            <DM name="ESSIDHideEnable" val="0"/>
+            <DM name="BeaconEnabled" val="1"/>
+            <DM name="WEPAuthMode" val="2"/>
+            <DM name="WEPLevel" val="1"/>
+            <DM name="WEPKeyIndex" val="1"/>
+            <DM name="WPAEncryptType" val="1"/>
+            <DM name="WPAAuthMode" val="0"/>
+            <DM name="11iEncryptType" val="1"/>
+            <DM name="11iAuthMode" val="0"/>
+            <DM name="WPAGroupRekey" val="600"/>
+            <DM name="WPAEAPServerIp" val="192.168.1.1"/>
+            <DM name="WPAEAPSecret" val="12345678"/>
+            <DM name="MaxUserNum" val="32"/>
+            <DM name="VapIsolationEnable" val="0"/>
+            <DM name="BasicEncryptionModes" val="0"/>
+        </Row>
+        <Row No="3">
+            <DM name="ViewName" val="IGD.LD1.WLAN4"/>
+            <DM name="LANDViewName" val="IGD.LD1"/>
+            <DM name="InstExist" val="0"/>
+            <DM name="Enable" val="0"/>
+            <DM name="ESSID" val="SSID4"/>
+            <DM name="ESSIDPrefix" val=""/>
+            <DM name="Priority" val="0"/>
+            <DM name="ACLPolicy" val="0"/>
+                <DM name="BeaconType" val="6"/>
+            <DM name="ESSIDHideEnable" val="0"/>
+            <DM name="BeaconEnabled" val="1"/>
+            <DM name="WEPAuthMode" val="2"/>
+            <DM name="WEPLevel" val="1"/>
+            <DM name="WEPKeyIndex" val="1"/>
+            <DM name="WPAEncryptType" val="1"/>
+            <DM name="WPAAuthMode" val="0"/>
+            <DM name="11iEncryptType" val="1"/>
+            <DM name="11iAuthMode" val="0"/>
+            <DM name="WPAGroupRekey" val="600"/>
+            <DM name="WPAEAPServerIp" val="192.168.1.1"/>
+            <DM name="WPAEAPSecret" val="12345678"/>
+            <DM name="MaxUserNum" val="32"/>
+            <DM name="VapIsolationEnable" val="0"/>
+            <DM name="BasicEncryptionModes" val="0"/>
+        </Row>
+    </Tbl>
+<Tbl name="WAND" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1"/>
+<DM name="WANDType" val="4"/>
+<DM name="WANCDCapcity" val="1"/>
+<DM name="TriggerEnable" val="0"/>
+</Row>
+</Tbl>
+<Tbl name="WANDCommCfg" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WDCommCfg"/>
+<DM name="WDViewName" val="IGD.WD1"/>
+<DM name="EnabledForInternet" val="1"/>
+<DM name="MaxActiveConnections" val="8"/>
+</Row>
+</Tbl>
+<Tbl name="WANCD" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WCD1"/>
+<DM name="WANDViewName" val="IGD.WD1"/>
+<DM name="WANCCapcity" val="1"/>
+<DM name="LinkType" val="1"/>
+<DM name="Enabled" val="1"/>
+</Row>
+</Tbl>
+<Tbl name="WANC" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="WANCDViewName" val="IGD.WD1.WCD1"/>
+<DM name="Enable" val="1"/>
+<DM name="WANCType" val="1"/>
+<DM name="ConnType" val="1"/>
+<DM name="TriggerEnable" val="0"/>
+<DM name="LANDViewName" val=""/>
+<DM name="WANCName" val="1_TR069_R_VID_46"/>
+<DM name="WANCNameExt" val=""/>
+<DM name="StrServList" val="TR069"/>
+<DM name="ServList" val="2"/>
+<DM name="WorkIFMac" val="00:10:08:72:61:33"/>
+<DM name="IsNAT" val="0"/>
+<DM name="IsForward" val="0"/>
+<DM name="IsDefGW" val="0"/>
+<DM name="DSCP" val="-1"/>
+<DM name="VLANID" val="46"/>
+<DM name="Priority" val="7"/>
+<DM name="WBDMode" val="1"/>
+<DM name="HideListView" val="0"/>
+<DM name="IsDel" val="0"/>
+<DM name="MutiVlan" val="-1"/>
+<DM name="IPMode" val="0"/>
+<DM name="GUASrc" val="0"/>
+<DM name="DNSv6Src" val="0"/>
+<DM name="Gatewayv6Src" val="0"/>
+<DM name="MTUv6Src" val="0"/>
+<DM name="IsPD" val="1"/>
+</Row>
+</Tbl>
+<Tbl name="WANCIP" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="IPAddress" val="0.0.0.0"/>
+<DM name="SubnetMask" val="0.0.0.0"/>
+<DM name="GateWay" val="0.0.0.0"/>
+<DM name="Addressingtype" val="0"/>
+<DM name="DNS1" val="0.0.0.0"/>
+<DM name="DNS2" val="0.0.0.0"/>
+<DM name="DNS3" val="0.0.0.0"/>
+<DM name="MTU" val="1492"/>
+</Row>
+</Tbl>
+<Tbl name="WANCPPP" RowCount="0">
+</Tbl>
+<Tbl name="PONCfgProduct" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WCD1.PONCfg"/>
+<DM name="WCDViewName" val="IGD.WD1.WCD1"/>
+<DM name="WanMode" val="2"/>
+<DM name="WanVlan" val="46"/>
+<DM name="WanPri" val="7"/>
+<DM name="WanTci" val="467"/>
+</Row>
+</Tbl>
+<Tbl name="WANCPONCFGProduct" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WCD1.WCIP1.WCPONCFG1"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="IgmpVlan" val="-1"/>
+<DM name="PortMask" val="0"/>
+</Row>
+</Tbl>
+<Tbl name="PDTWANCEXT" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WANC_EXT1"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="DhcpEnable" val="1"/>
+</Row>
+</Tbl>
+<Tbl name="WANCServList" RowCount="4">
+<Row No="0">
+<DM name="ViewName" val="IGD.WANCSL1"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="Application" val="3"/>
+</Row>
+<Row No="1">
+<DM name="ViewName" val="IGD.WANCSL2"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="Application" val="4"/>
+</Row>
+<Row No="2">
+<DM name="ViewName" val="IGD.WANCSL3"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="Application" val="8"/>
+</Row>
+<Row No="3">
+<DM name="ViewName" val="IGD.WANCSL4"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="Application" val="11"/>
+</Row>
+</Tbl>
+<Tbl name="WancpppProduct" RowCount="1">
+<Row No="0">
+<DM name="Enable" val="1"/>
+</Row>
+</Tbl>
+<Tbl name="MultiWancConfProduct" RowCount="0">
+</Tbl>
+<Tbl name="IPv6IP" RowCount="1">
+<Row No="0">
+<DM name="ViewName" val="IGD.WD1.WCD1.WCIP1.IP"/>
+<DM name="WANCViewName" val="IGD.WD1.WCD1.WCIP1"/>
+<DM name="GUA" val="::"/>
+<DM name="Gatewayv6" val="::"/>
+<DM name="DNS1v6" val="::"/>
+<DM name="DNS2v6" val="::"/>
+<DM name="DNS3v6" val="::"/>
+<DM name="MTUv6" val="0"/>
+</Row>
+</Tbl>
+<Tbl name="L2BBridge" RowCount="0">
+</Tbl>
+<Tbl name="L2BFilter" RowCount="0">
+</Tbl>
+<Tbl name="L2BAvailIF" RowCount="8">
+<Row No="0">
+<DM name="ViewName" val="IGD.L2BAvailIF1"/>
+<DM name="AvailInterfaceKey" val="1"/>
+<DM name="InterfaceType" val="0"/>
+<DM name="InterfaceReference" val="IGD.LD1.ETH1"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row>
+<Row No="1">
+<DM name="ViewName" val="IGD.L2BAvailIF2"/>
+<DM name="AvailInterfaceKey" val="2"/>
+<DM name="InterfaceType" val="0"/>
+<DM name="InterfaceReference" val="IGD.LD1.ETH2"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row>
+<Row No="2">
+<DM name="ViewName" val="IGD.L2BAvailIF3"/>
+<DM name="AvailInterfaceKey" val="3"/>
+<DM name="InterfaceType" val="0"/>
+<DM name="InterfaceReference" val="IGD.LD1.ETH3"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row>
+<Row No="3">
+<DM name="ViewName" val="IGD.L2BAvailIF4"/>
+<DM name="AvailInterfaceKey" val="4"/>
+<DM name="InterfaceType" val="0"/>
+<DM name="InterfaceReference" val="IGD.LD1.ETH4"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row>
+<Row No="4">
+<DM name="ViewName" val="IGD.L2BAvailIF5"/>
+<DM name="AvailInterfaceKey" val="5"/>
+<DM name="InterfaceType" val="1"/>
+<DM name="InterfaceReference" val="IGD.LD1.WLAN1"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row>
+<Row No="5">
+<DM name="ViewName" val="IGD.L2BAvailIF6"/>
+<DM name="AvailInterfaceKey" val="6"/>
+<DM name="InterfaceType" val="1"/>
+<DM name="InterfaceReference" val="IGD.LD1.WLAN2"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row>
+<Row No="6">
+<DM name="ViewName" val="IGD.L2BAvailIF7"/>
+<DM name="AvailInterfaceKey" val="7"/>
+<DM name="InterfaceType" val="1"/>
+<DM name="InterfaceReference" val="IGD.LD1.WLAN3"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row> 
+<Row No="7">
+<DM name="ViewName" val="IGD.L2BAvailIF8"/>
+<DM name="AvailInterfaceKey" val="8"/>
+<DM name="InterfaceType" val="1"/>
+<DM name="InterfaceReference" val="IGD.LD1.WLAN4"/>
+<DM name="X_ZTE_PortAttr" val=""/>
+</Row> 
+</Tbl>
+<Tbl name="PortBinding" RowCount="0">
+</Tbl>
+<Tbl name="DHCPSHostCfg" RowCount="1">
+        <Row No="0">
+                <DM name="DnsServerSource" val="0"/>
+        </Row>
+</Tbl>
+  <Tbl name="CltLmt" RowCount="9">
+        <Row No="8">
+                <DM name="ViewName" val="IGD.CltLmt9"/>
+                <DM name="Enable" val="0"/>
+                <DM name="Type" val="8"/>
+                <DM name="Max" val="99"/>
+        </Row>
+  </Tbl>
+<Tbl name="SNTP" RowCount="1">
+        <Row No="0">
+                <DM name="Enable" val="1"/>
+                <DM name="NtpServer1" val="ntp1.edatahome.com"/>
+                <DM name="NtpServer2" val="ntp2.edatahome.com"/>
+                <DM name="NtpServer3" val=""/>
+                <DM name="NtpServer4" val=""/>
+                <DM name="NtpServer5" val=""/>
+                <DM name="LocalTimeZone" val="+08:00"/>
+                <DM name="LocalTimeZoneName" val="Beijing, Chongqing, Hong Kong, Urumqi, Irkutsk"/>
+                <DM name="DaylightSavingsUsed" val="0"/>
+                <DM name="DaylightSavingsStart" val=""/>
+                <DM name="DaylightSavingsEnd" val=""/>
+                <DM name="DaylightSavingZone" val="0"/>
+                <DM name="PollTimeInterval" val="86400"/>
+                <DM name="isSynchronized" val="0"/>
+                <DM name="SupportAccessRefuse" val="1"/>
+                <DM name="Dscp" val="-1"/>
+                <DM name="QueueNum" val="-1"/>
+                <DM name="SntpBindWanType" val="2"/>
+        </Row>
+</Tbl> 
+	<Tbl name="Log" RowCount="1">
+	  <Row No="0">
+	     <DM name="LogEnable" val="1"/>
+	     <DM name="LogLevel" val="3"/>
+	     <DM name="ServiceEnable" val="0"/>
+	     <DM name="ServicePort" val="514"/>
+	     <DM name="ServiceIp" val="0.0.0.0"/>
+	  </Row>
+	</Tbl>
+  <Tbl name="PDTCTUSERINFO" RowCount="1">
+      <Row No="0">
+              <DM name="Limit" val="5"/>
+      </Row>
+  </Tbl>
+
+</DB>
